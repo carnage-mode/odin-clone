@@ -39,3 +39,28 @@ body {
   flex: 0 1 auto;
   width: 1216px;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main .content {
+  flex: 0 1 auto;
+  width: 768px;
+}
+
+.main .content .title .text {
+  color: #d1d5db;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main .content .description .overview {
+  color: #d1d5db;
+  font-size: 18px;
+}
+
+.main .content .description .text {
+  color: #9ca3af;
+}
