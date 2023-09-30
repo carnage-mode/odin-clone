@@ -18,6 +18,25 @@ body {
   box-sizing: inherit;
 }
 
+button.primary {
+  color: #d1d5db;
+  background: #0f766e;
+  border: none;
+}
+
+button.secondary {
+  color: #d1d5db;
+  background: transparent;
+  border: 1px solid #374151;
+}
+
+button.primary,
+button.secondary {
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
 .aligner {
   display: flex;
   justify-content: space-between;
@@ -112,8 +131,30 @@ div.checked {
   border-top: 1px solid #363f4b;
   height: 64px;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.footer .support-us {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+  width: 512px;
+  font-size: 14px;
+}
+
+.footer .support-us .name {
+  color: #d1d5db;
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer .support-us .button-group {
+  display: flex;
+  gap: 16px;
 }
 
 .header .content,
