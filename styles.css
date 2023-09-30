@@ -26,7 +26,16 @@ body {
   align-items: stretch;
 }
 
-.header .content {
+.footer {
+  border-top: 1px solid #363f4b;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.header .content,
+.footer .content {
   flex: 0 1 auto;
   width: 1216px;
 }
