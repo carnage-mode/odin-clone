@@ -52,6 +52,7 @@ div.symbol {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  margin-bottom: 64px;
 }
 
 .header .content {
@@ -105,15 +106,21 @@ div.symbol {
   width: 768px;
 }
 
-.main .content .title .text {
+.main .content .title {
   color: #d1d5db;
   text-align: center;
   font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.main .content .description {
+  margin-bottom: 24px;
 }
 
 .main .content .description .overview {
   color: #d1d5db;
   font-size: 18px;
+  margin-bottom: 4px;
 }
 
 .main .content .description .text {
