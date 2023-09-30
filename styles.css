@@ -18,12 +18,67 @@ body {
   box-sizing: inherit;
 }
 
+div.logo {
+  background: #e3b261;
+  width: 32px;
+  height: 32px;
+  border: 4px solid #d1d5db;
+  border-radius: 100%;
+}
+
+div.logo-type {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+div.account {
+  background: #9ca3af;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #d1d5db;
+  border-radius: 100%;
+}
+
+div.symbol {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #d1d5db;
+  border-radius: 100%;
+}
+
 .header {
-  border-bottom: 1px solid #363f4b;
+  border-bottom: 1px solid #1f2937;
   height: 64px;
   display: flex;
   justify-content: center;
   align-items: stretch;
+}
+
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .content .left-side {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header .content .right-side ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header .content .right-side ul a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #d1d5db;
 }
 
 .footer {
