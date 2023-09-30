@@ -18,6 +18,18 @@ body {
   box-sizing: inherit;
 }
 
+.aligner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aligner .sub {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 div.logo {
   background: #e3b261;
   width: 32px;
@@ -43,6 +55,20 @@ div.symbol {
   width: 16px;
   height: 16px;
   border: 2px solid #d1d5db;
+  border-radius: 100%;
+}
+
+div.symbol-light {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #9ca3af;
+  border-radius: 100%;
+}
+
+div.checked {
+  width: 16px;
+  height: 16px;
+  border: 6px solid #0d9488;
   border-radius: 100%;
 }
 
@@ -114,7 +140,7 @@ div.symbol {
 }
 
 .main .content .description {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .main .content .description .overview {
@@ -125,4 +151,38 @@ div.symbol {
 
 .main .content .description .text {
   color: #9ca3af;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 128px;
+}
+
+.sections .section {
+  color: #d1d5db;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  background: #1f2937;
+}
+
+.sections .section .name {
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #374151;
+}
+
+.sections .section ul {
+  list-style: none;
+  margin: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sections .section ul li {
+  padding: 12px;
 }
