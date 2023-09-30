@@ -16,6 +16,4 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
-  background: #111827;
-  color: #d1d5db;
 }
