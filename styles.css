@@ -242,6 +242,7 @@ div.checked {
 .main .content .description .overview {
   color: #d1d5db;
   font-size: 18px;
+  font-weight: 500;
   margin-bottom: 4px;
 }
 
