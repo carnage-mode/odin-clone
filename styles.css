@@ -62,6 +62,12 @@ div.logo-type {
   font-weight: 600;
 }
 
+div.brand {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
 div.account {
   background: #9ca3af;
   width: 32px;
@@ -128,7 +134,6 @@ div.checked {
 }
 
 .footer {
-  border-top: 1px solid #363f4b;
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -155,6 +160,56 @@ div.checked {
 .footer .support-us .button-group {
   display: flex;
   gap: 16px;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer .content .main {
+  display: flex;
+  justify-content: flex-start;
+  gap: 128px;
+}
+
+.footer .content .right-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+}
+
+.footer .content .right-side .sec {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer .content .right-side .name {
+  color: #d1d5db;
+  font-weight: 600;
+}
+
+.footer .content .right-side ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .content .right-side a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .content .copyright {
+  border-top: 1px solid #363f4b;
+  color: #d1d5db;
+  font-size: 12px;
+  padding: 32px 0;
 }
 
 .header .content,
